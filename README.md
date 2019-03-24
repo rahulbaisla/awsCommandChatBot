@@ -123,3 +123,5 @@ AWS Services used in this bot are
    * When asked Which action ?
    * Enter create
    * aws lambda create-function  --function-name VALUE_HERE --role VALUE_HERE --runtime VALUE_HERE --handler VALUE_HERE --code VALUE_HERE
+
+![alt text](https://github.com/rahulbaisla/awsCommandChatBot/blob/master/AWS%20Command%20Slack%20Bot.png)
