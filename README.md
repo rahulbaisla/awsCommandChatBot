@@ -86,10 +86,7 @@ AWS Services used in this bot are
     *  Enter name "awsCommands"
     * Enter Primary key "servicename"
     * Enter Sort Key "methodname"
-    * After table is created, Click Create Item
-    
-
-
+    * After table is created, Use CLI commands in "CLI Commands.txt" to populate Dynamo DB.
 
 7. Set up awsCommandBot
     * Go to AWS Console -> Lex -> awsCommandBot -> Editor
