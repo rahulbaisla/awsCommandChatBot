@@ -1,0 +1,15 @@
+aws dynamodb put-item --table-name awsCommands --item  '{"methodname":{"S":"invoke"},"parameters":{"L":[{"S":"function-name"},{"S":"invocation-type"},{"S":"log-type"},{"S":"payload"},{"S":"outfile"}]},"servicename":{"S":"lambda"}}'
+
+aws dynamodb put-item --table-name awsCommands --item  '{"methodname":{"S":"add-permission"},"parameters":{"L":[{"S":"function-name"},{"S":"statement-id"},{"S":"action"},{"S":"principal"}]},"servicename":{"S":"lambda"}}'
+
+aws dynamodb put-item --table-name awsCommands --item  '{"methodname":{"S":"create-alias"},"parameters":{"L":[{"S":"function-name"},{"S":"name"},{"S":"function-version"},{"S":"description"}]},"servicename":{"S":"lambda"}}'
+
+aws dynamodb put-item --table-name awsCommands --item  '{"methodname":{"S":"create-event-source-mapping"},"parameters":{"L":[{"S":"function-name"},{"S":"event-source-arn"},{"S":"batch-size"}]},"servicename":{"S":"lambda"}}'
+
+aws dynamodb put-item --table-name awsCommands --item  '{"methodname":{"S":"delete-alias"},"parameters":{"L":[{"S":"function-name"},{"S":"name"}]},"servicename":{"S":"lambda"}}'
+
+aws dynamodb put-item --table-name awsCommands --item  '{"methodname":{"S":"delete-event-source-mapping"},"parameters":{"L":[{"S":"uuid"}]},"servicename":{"S":"lambda"}}'
+
+aws dynamodb put-item --table-name awsCommands --item  '{"methodname":{"S":"delete-function"},"parameters":{"L":[{"S":"function-name"}]},"servicename":{"S":"lambda"}}'
+
+aws dynamodb put-item --table-name awsCommands --item  '{"methodname":{"S":"get-account-settings"},"parameters":{"L":[]},"servicename":{"S":"lambda"}}'
